@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEAB93021A289944005B6D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAB93011A289944005B6D35 /* Foundation.framework */; };
+		FEAB930E1A289944005B6D35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAB930D1A289944005B6D35 /* main.m */; };
+		FEAB93201A289A1A005B6D35 /* SMS.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEAB931F1A289A1A005B6D35 /* SMS.mm */; };
+		FEAB933F1A28A3DE005B6D35 /* libscws.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAB93171A289998005B6D35 /* libscws.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEAB931B1A2899DF005B6D35 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/lib;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FEAB92FE1A289944005B6D35 /* BanTrashSMS_iOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BanTrashSMS_iOS; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAB93011A289944005B6D35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEAB93061A289944005B6D35 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		FEAB93071A289944005B6D35 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		FEAB93091A289944005B6D35 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		FEAB930C1A289944005B6D35 /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/usr/bin/0xdeadfa11; sourceTree = "<group>"; };
+		FEAB930D1A289944005B6D35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEAB930F1A289944005B6D35 /* BanTrashSMS_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BanTrashSMS_iOS-Prefix.pch"; sourceTree = "<group>"; };
+		FEAB93151A289985005B6D35 /* libscws.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libscws.dylib; path = ../libscws.dylib; sourceTree = "<group>"; };
+		FEAB93171A289998005B6D35 /* libscws.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libscws.dylib; path = BanTrashSMS_iOS/libscws.dylib; sourceTree = "<group>"; };
+		FEAB93191A2899D5005B6D35 /* dict.utf8.xdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = dict.utf8.xdb; sourceTree = "<group>"; };
+		FEAB931A1A2899D5005B6D35 /* rules.utf8.ini */ = {isa = PBXFileReference; lastKnownFileType = text; path = rules.utf8.ini; sourceTree = "<group>"; };
+		FEAB931E1A289A1A005B6D35 /* SMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMS.h; sourceTree = "<group>"; };
+		FEAB931F1A289A1A005B6D35 /* SMS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SMS.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEAB92FB1A289944005B6D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB933F1A28A3DE005B6D35 /* libscws.dylib in Frameworks */,
+				FEAB93021A289944005B6D35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEAB92F51A289944005B6D35 = {
+			isa = PBXGroup;
+			children = (
+				FEAB93031A289944005B6D35 /* BanTrashSMS_iOS */,
+				FEAB93001A289944005B6D35 /* Frameworks */,
+				FEAB92FF1A289944005B6D35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEAB92FF1A289944005B6D35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB92FE1A289944005B6D35 /* BanTrashSMS_iOS */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEAB93001A289944005B6D35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB93171A289998005B6D35 /* libscws.dylib */,
+				FEAB93151A289985005B6D35 /* libscws.dylib */,
+				FEAB93011A289944005B6D35 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEAB93031A289944005B6D35 /* BanTrashSMS_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB930D1A289944005B6D35 /* main.m */,
+				FEAB931E1A289A1A005B6D35 /* SMS.h */,
+				FEAB931F1A289A1A005B6D35 /* SMS.mm */,
+				FEAB93191A2899D5005B6D35 /* dict.utf8.xdb */,
+				FEAB931A1A2899D5005B6D35 /* rules.utf8.ini */,
+				FEAB93041A289944005B6D35 /* Package */,
+				FEAB93081A289944005B6D35 /* Supporting Files */,
+			);
+			path = BanTrashSMS_iOS;
+			sourceTree = "<group>";
+		};
+		FEAB93041A289944005B6D35 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB93051A289944005B6D35 /* DEBIAN */,
+				FEAB930A1A289944005B6D35 /* usr */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		FEAB93051A289944005B6D35 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB93061A289944005B6D35 /* control.txt */,
+				FEAB93071A289944005B6D35 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		FEAB93081A289944005B6D35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB93091A289944005B6D35 /* PackageVersion.plist */,
+				FEAB930F1A289944005B6D35 /* BanTrashSMS_iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEAB930A1A289944005B6D35 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB930B1A289944005B6D35 /* bin */,
+			);
+			name = usr;
+			sourceTree = "<group>";
+		};
+		FEAB930B1A289944005B6D35 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB930C1A289944005B6D35 /* 0xdeadfa11 */,
+			);
+			name = bin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEAB92FD1A289944005B6D35 /* BanTrashSMS_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEAB93121A289944005B6D35 /* Build configuration list for PBXNativeTarget "BanTrashSMS_iOS" */;
+			buildPhases = (
+				FEAB92FA1A289944005B6D35 /* Sources */,
+				FEAB92FB1A289944005B6D35 /* Frameworks */,
+				FEAB92FC1A289944005B6D35 /* ShellScript */,
+				FEAB931B1A2899DF005B6D35 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BanTrashSMS_iOS;
+			productName = BanTrashSMS_iOS;
+			productReference = FEAB92FE1A289944005B6D35 /* BanTrashSMS_iOS */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEAB92F61A289944005B6D35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					FEAB92FD1A289944005B6D35 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = FEAB92F91A289944005B6D35 /* Build configuration list for PBXProject "BanTrashSMS_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEAB92F51A289944005B6D35;
+			productRefGroup = FEAB92FF1A289944005B6D35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEAB92FD1A289944005B6D35 /* BanTrashSMS_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FEAB92FC1A289944005B6D35 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEAB92FA1A289944005B6D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAB930E1A289944005B6D35 /* main.m in Sources */,
+				FEAB93201A289A1A005B6D35 /* SMS.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEAB93101A289944005B6D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		FEAB93111A289944005B6D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		FEAB93131A289944005B6D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BanTrashSMS_iOS/BanTrashSMS_iOS-Prefix.pch";
+				INSTALL_PATH = /usr/bin;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/BlueCocoa/Desktop/TrashSMS,
+					"$(PROJECT_DIR)/BanTrashSMS_iOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		FEAB93141A289944005B6D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BanTrashSMS_iOS/BanTrashSMS_iOS-Prefix.pch";
+				INSTALL_PATH = /usr/bin;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/BlueCocoa/Desktop/TrashSMS,
+					"$(PROJECT_DIR)/BanTrashSMS_iOS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEAB92F91A289944005B6D35 /* Build configuration list for PBXProject "BanTrashSMS_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAB93101A289944005B6D35 /* Debug */,
+				FEAB93111A289944005B6D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEAB93121A289944005B6D35 /* Build configuration list for PBXNativeTarget "BanTrashSMS_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAB93131A289944005B6D35 /* Debug */,
+				FEAB93141A289944005B6D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEAB92F61A289944005B6D35 /* Project object */;
+}

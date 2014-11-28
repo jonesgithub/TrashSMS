@@ -103,7 +103,7 @@ static SMS * sharedInstance = nil;
 
 - (NSDictionary *)isTrashSMS:(NSString *)sms{
     if (self.trashData == nil) {
-        return NO;
+        return nil;
     }
     const char * trash = [sms UTF8String];
     scws_t s = scws_new();

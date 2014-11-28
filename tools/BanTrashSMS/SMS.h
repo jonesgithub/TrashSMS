@@ -43,6 +43,7 @@
 - (NSDictionary *)isTrashSMS:(NSString *)sms;
 
 #ifdef DEVELOPMENT
+#define TrashDataFile @"/usr/bin/TrashData.plist"
 
 /*!
  *  @brief  训练识别垃圾短信
@@ -52,8 +53,6 @@
  *  @discussion  需要在import SMS.h 前设定`DEVELOPMENT`宏
  *               下方的`TrashDataFile`宏所指的路径仅在训练时使用, Release中直接向loadTrashData:中传参
  */
-
-#define TrashDataFile @"/usr/bin/TrashData.plist"
 
 - (void)trainWithTextsPath:(NSString *)path;
 
